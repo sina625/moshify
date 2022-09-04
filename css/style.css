@@ -152,7 +152,7 @@ a{
 }
 
 .icon--primary{
-    fill: var(--color-primary);
+    fill: var(--color-primary);/* for icons we use fill property*/
 }
 
 .icon-container{
