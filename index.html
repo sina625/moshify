@@ -12,36 +12,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="card testimonial">
-        <div class="grid grid--1x2">
-            <div class="testimonial__image">
-                <img class="testimonial__image" src="images/testimonial.jpg" alt="a happy person">
-                <span class="icon-container icon-container--accent">
-                    <svg class="icon icon--white icon--small">
-                        <use xlink:href="images/sprite.svg#quotes"></use>
-                      </svg>
-                </span>
-            </div>
-            <blockquote class="quote">
-                <p class="quote__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil vero consequuntur unde ducimus quas eius aut illum id rerum! Perferendis.</p>
-            </blockquote>
-            <footer>
-                <div class="media">
-                    <div class="media__image">
-                        <svg class="icon icon--primary quote__line">
-                            <use xlink:href="images/sprite.svg#line"></use>
-                          </svg>
-                    </div>
-                    <div class="media__body">
-                        <h3 class="media__title quote__author">john smith</h3>
-                        <p>abc company</p>
-                    </div>
-                </div>
-                
-            </footer>
+    <div class="collapsible collapsible--expanded">
+        <header class="collapsible__header">
+            <h2 class="collapsible__heading">item 1</h2>
             
+                <svg class="icon icon--primary collapsible__chevron" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+            
+        </header>
+        <div class="collapsible__content">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, rerum?
         </div>
-    </div>
-
+    </div> 
+    <div class="collapsible collapsible--expanded">
+        <header class="collapsible__header">
+            <h2 class="collapsible__heading">item 2</h2>
+            
+                <svg class="icon icon--primary collapsible__chevron" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+            
+        </header>
+        <div class="collapsible__content">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, rerum?
+        </div>
+    </div> 
+    <script src="js/main.js"></script> 
 </body>
 </html>
