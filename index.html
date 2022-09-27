@@ -12,37 +12,53 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="block container">
-        <header class="block--header">
-            <h2>host on the cloud</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, nulla.</p>
-        </header>
-        <article class="grid grid--1x2 feature">
-            <div class="feature--content">
-                <span class="icon-container">
-                    <svg class="icon icon--primary">
-                        <use xlink:href="images/sprite.svg#easy"></use>
-                      </svg>
-                </span>
-                <h3 class="feature--heading">super easy to use</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas culpa placeat eius provident cupiditate tenetur voluptatum sapiente nulla dolor sit!</p>
-                <a href="#" class="link-arrow">learn more</a>
-            </div>
-            <img class="feature--image" src="images/easy.jpg" alt="">
-        </article>
-        <article class="grid grid--1x2 feature">
-            <div class="feature--content">
-                <span class="icon-container">
-                    <svg class="icon icon--primary">
-                        <use xlink:href="images/sprite.svg#easy"></use>
-                      </svg>
-                </span>
-                <h3 class="feature--heading">super easy to use</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas culpa placeat eius provident cupiditate tenetur voluptatum sapiente nulla dolor sit!</p>
-                <a href="#" class="link-arrow">learn more</a>
-            </div>
-            <img class="feature--image" src="images/easy.jpg" alt="">
-        </article>
+    <header>
+        <nav class="nav collapsible">
+            <a class="nav--brand" href="/"><img src="images/logo.svg" alt=""></a>
+            <svg class="icon icon--white nav--toggler">
+                <use xlink:href="images/sprite.svg#menu"></use>
+            </svg>
+            <ul class="list nav--list collapsible__content">
+                <li class="nav--item"><a href="#">hosting</a></li>
+                <li class="nav--item"><a href="#">vps</a></li>
+                <li class="nav--item"><a href="#">domain</a></li>
+                <li class="nav--item"><a href="#">pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="block block--dark block--skewed-right hero">
+        <div class="container grid grid--1x2">
+            <header class="block--header hero--content">
+                <h1 class="block__heading">cloud hosting</h1>
+                <p class="hero__tagline">deploy your website</p>
+                <a href="" class="btn btn--accent btn--streched">get started</a>
+            </header>
+        <picture>
+            <source type="images/webp" src="images/bannerwebp.webp">
+            <img class="hero--image" src="images/banner.png" alt="">
+        </picture>
+        </div>
     </section>
+    <section class="block container block-domain">
+        <header class="block--header">
+            <h2>start at 6$</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, saepe.</p>
+        </header>
+        <div class="input-group">
+            <button class="btn btn--accent">    <svg class="icon icon--white">
+                <use xlink:href="images/sprite.svg#search"></use>
+              </svg>search</button>
+            <input type="text" class="input" placeholder="enter domain name">
+        </div>
+        <ul class="list domain-block-prices">
+            <li><span class="badge badge--secondary">hello</span></li>
+            <li>im</li>
+            <li>sina</li>
+            <li>how</li>
+            <li>are</li>
+            <li>you</li>
+        </ul>     
+    </section>
+
 </body>
 </html>
